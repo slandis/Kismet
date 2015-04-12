@@ -14,6 +14,10 @@ Kismet is a scoring dice game with some poker attributes. It is almost identical
 - There is an added *Full House Same Color* score.
 - The Yahztee score is a Kismet score (Five of a Kind) and nets you the sum of your dice plus 50 bonus points.
 
+This module does not implement any actual game play logic, as a majority of that will depend on how you structure your interface and what pins it all together behind the scenes. I wrote this simply to capture in one object the basic scoring and roll functions of Kismet, separating it from the actual development of the game itself.
+
+On to the code!
+
 #Constructor
 ## Kismet()
 
